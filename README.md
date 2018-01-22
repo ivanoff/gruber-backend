@@ -1,3 +1,8 @@
+
+[![Build Status: Linux][travis-image]][travis-url]
+[![Build Status: Windows][appveyor-image]][appveyor-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+
 # Gruber backend
 
 ### v.0.2.1
@@ -33,3 +38,12 @@ You can get google key for free here:
 ## Created by
 
 Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua
+
+[travis-url]: https://travis-ci.org/ivanoff/gruber-backend
+[travis-image]: https://travis-ci.org/ivanoff/gruber-backend.svg?branch=master
+
+[appveyor-url]: https://ci.appveyor.com/project/ivanoff/gruber-backend/branch/master
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/lp3nhnam1eyyqh33/branch/master?svg=true
+
+[coveralls-url]: https://coveralls.io/github/ivanoff/gruber-backend?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/ivanoff/gruber-backend/badge.svg?branch=master
