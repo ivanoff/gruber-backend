@@ -5,7 +5,7 @@
 
 # Gruber backend
 
-### v.0.2.1
+### v.0.2.2
 
 ### Backend for Gruber test task
 
