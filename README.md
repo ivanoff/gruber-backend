@@ -25,14 +25,16 @@ For start Gruber backend, you need to define the following variables:
 
 ### Start Example
 
-`GOOGLE_KEY=AAAAbbbbZ3kDp03V_o6_jak0wxVU4B3Zcl0Ak UBER_SERVER_TOKEN=cVfryR-_9FnffpknVFkDlkb1Psi_X-bdVa0oD_Pf npm start`
+`GOOGLE_KEY=AAAAbbbbZ3V_o6_jaU4B3Zcl0Ak UBER_SERVER_TOKEN=cVyR-_9Fnklkb1Psi_X-b0o npm start`
 
 
 ## Get Google Key
 
-You can get google key for free here:
+You can get google key here for free:
 
-`https://developers.google.com/places/javascript/?hl=ru`
+[https://developers.google.com/places/javascript](https://developers.google.com/places/javascript/?hl=en)
+
+Just click on "Get a Key" button.
 
 
 ## Created by
