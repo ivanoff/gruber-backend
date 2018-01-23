@@ -14,6 +14,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.post('/', uber.estimate.bind(uber));
+app.post('/search', uber.searchAddress.bind(uber));
 
 app.use((req, res, next) => {
   if (res.headersSent) return next();
