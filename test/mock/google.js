@@ -439,6 +439,124 @@ module.exports = exports = {
         "key": "AIzaSyDYmT8bnHQl71gUGrkc6sizLL79cr5NIuw"
     }
   },
+  "Otto-Engl-Platz 81241 München, Germany": {
+    "status": 200,
+    "headers": {
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Tue, 23 Jan 2018 10:58:08 GMT",
+        "expires": "Wed, 24 Jan 2018 10:58:08 GMT",
+        "cache-control": "public, max-age=86400",
+        "access-control-allow-origin": "*",
+        "server": "mafe",
+        "x-xss-protection": "1; mode=block",
+        "x-frame-options": "SAMEORIGIN",
+        "alt-svc": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"",
+        "accept-ranges": "none",
+        "vary": "Accept-Language,Accept-Encoding",
+        "connection": "close"
+    },
+    "json": {
+        "results": [
+            {
+                "address_components": [
+                    {
+                        "long_name": "Otto-Engl-Platz",
+                        "short_name": "Otto-Engl-Platz",
+                        "types": [
+                            "route"
+                        ]
+                    },
+                    {
+                        "long_name": "Pasing-Obermenzing",
+                        "short_name": "Pasing-Obermenzing",
+                        "types": [
+                            "political",
+                            "sublocality",
+                            "sublocality_level_1"
+                        ]
+                    },
+                    {
+                        "long_name": "München",
+                        "short_name": "München",
+                        "types": [
+                            "locality",
+                            "political"
+                        ]
+                    },
+                    {
+                        "long_name": "Oberbayern",
+                        "short_name": "Oberbayern",
+                        "types": [
+                            "administrative_area_level_2",
+                            "political"
+                        ]
+                    },
+                    {
+                        "long_name": "Bayern",
+                        "short_name": "BY",
+                        "types": [
+                            "administrative_area_level_1",
+                            "political"
+                        ]
+                    },
+                    {
+                        "long_name": "Germany",
+                        "short_name": "DE",
+                        "types": [
+                            "country",
+                            "political"
+                        ]
+                    },
+                    {
+                        "long_name": "81241",
+                        "short_name": "81241",
+                        "types": [
+                            "postal_code"
+                        ]
+                    }
+                ],
+                "formatted_address": "Otto-Engl-Platz, 81241 München, Germany",
+                "geometry": {
+                    "bounds": {
+                        "northeast": {
+                            "lat": 48.142681,
+                            "lng": 11.46408
+                        },
+                        "southwest": {
+                            "lat": 48.1403342,
+                            "lng": 11.46231
+                        }
+                    },
+                    "location": {
+                        "lat": 48.1414755,
+                        "lng": 11.4630539
+                    },
+                    "location_type": "GEOMETRIC_CENTER",
+                    "viewport": {
+                        "northeast": {
+                            "lat": 48.1428565802915,
+                            "lng": 11.4645439802915
+                        },
+                        "southwest": {
+                            "lat": 48.1401586197085,
+                            "lng": 11.4618460197085
+                        }
+                    }
+                },
+                "place_id": "ChIJDe79SAnYnUcRdn8OjjJnrqo",
+                "types": [
+                    "route"
+                ]
+            }
+        ],
+        "status": "OK"
+    },
+    "requestUrl": "https://maps.googleapis.com/maps/api/geocode/json?address=Otto-Engl-Platz%2081241%20M%C3%BCnchen%2C%20Germany&key=AIzaSyDYmT7bnHQl31gUGrkc7sizLL79cr5NIuw",
+    "query": {
+        "address": "Otto-Engl-Platz 81241 München, Germany",
+        "key": "AIzaSyDYmT7bnHQl31gUGrkc7sizLL79cr5NIuw"
+    }
+  },
   "Marseille, France, 99 Rue Abbé de l'Épée": {
     "status": 200,
     "headers": {
