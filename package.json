@@ -1,18 +1,21 @@
 {
   "name": "gruber-backend",
-  "version": "0.3.1",
+  "version": "0.3.3",
+  "description": "Gruber backend",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node_modules/.bin/mocha",
-    "coverage": "istanbul cover node_modules/.bin/_mocha -- -- test/**/*.js"
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- -- test/*.js test/**/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivanoff/gruber-backend.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Gruber"
+  ],
+  "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ivanoff/gruber-backend/issues"

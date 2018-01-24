@@ -40,6 +40,21 @@ describe('Uber', function () {
       uber.estimate({ body: { from, to } }, res, done);
     });
 
+    it(`Test example for search Marseille, 99 Rue Abbé`, function (done) {
+      let res = { json: (result) => {
+          expect(result).deep.eql([
+            '99 Rue Abbé de l\'Épée, Marseille, France',
+            '99 Rue Abbé Faria, Marseille, France',
+            '99 Rue Abbé Féraud, Marseille, France',
+            '99 Rue Abbé Dassy, Marseille, France',
+            '99 Rue de l\'Abbé Féraud, Marseille, France',
+          ]);
+          done();
+        }, };
+
+      uber.searchAddress({ body: { text: 'Marseille, 99 Rue Abbé' } }, res, done);
+    });
+
     it(`Test example for Long Distance`, function (done) {
       let from = 'Schwanthalerhöhe Munich, Germany';
       let to = "Marseille, France, 99 Rue Abbé de l'Épée";

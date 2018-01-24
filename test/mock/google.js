@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = exports = {
+  googleMapsResults: {
   test: {
     status: 200,
     headers: {
@@ -690,5 +691,618 @@ module.exports = exports = {
         key: 'AIzaSyDYmT8bnHQl71gUGrkc6sizLL79cr5NIuw',
       },
   },
+  },
 
+  places: {
+    'São Paulo - State of' : {
+ "status": 200,
+ "headers": {
+  "content-type": "application/json; charset=UTF-8",
+  "date": "Wed, 24 Jan 2018 18:00:54 GMT",
+  "expires": "Wed, 24 Jan 2018 18:00:54 GMT",
+  "cache-control": "private, max-age=300",
+  "server": "scaffolding on HTTPServer2",
+  "x-xss-protection": "1; mode=block",
+  "x-frame-options": "SAMEORIGIN",
+  "alt-svc": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"",
+  "accept-ranges": "none",
+  "vary": "Accept-Language,Accept-Encoding",
+  "connection": "close"
+ },
+ "json": {
+  "predictions": [
+   {
+    "description": "Rua São Vicente de Paulo - Santa Cecilia, São Paulo - State of São Paulo, Brazil",
+    "id": "446240b10e99056276a413bcd369877953a34561",
+    "matched_substrings": [
+     {
+      "length": 24,
+      "offset": 0
+     },
+     {
+      "length": 8,
+      "offset": 54
+     }
+    ],
+    "place_id": "ElNSdWEgU8OjbyBWaWNlbnRlIGRlIFBhdWxvIC0gU2FudGEgQ2VjaWxpYSwgU8OjbyBQYXVsbyAtIFN0YXRlIG9mIFPDo28gUGF1bG8sIEJyYXppbA",
+    "reference": "CmRXAAAAgeYUQkYTkBwUvBZUvpGjysqpvKIFwx9gfaKGH-Qk3hNL7XMf59_7WMUSuWu7EfWygzJiPG3oACBa2k6bJTKT8uMp-I9KzrvgPJVoIqrvUcQYX7lQCswxTB9smzIkRVEvEhCGatWk41GImxymguoaeWaxGhRUPSU5sDNhkli-IYs43jm5pLp1jA",
+    "structured_formatting": {
+     "main_text": "Rua São Vicente de Paulo",
+     "main_text_matched_substrings": [
+      {
+       "length": 24,
+       "offset": 0
+      }
+     ],
+     "secondary_text": "Santa Cecilia, São Paulo - State of São Paulo, Brazil",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 8,
+       "offset": 27
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "Rua São Vicente de Paulo"
+     },
+     {
+      "offset": 27,
+      "value": "Santa Cecilia"
+     },
+     {
+      "offset": 42,
+      "value": "São Paulo"
+     },
+     {
+      "offset": 54,
+      "value": "State of São Paulo"
+     },
+     {
+      "offset": 74,
+      "value": "Brazil"
+     }
+    ],
+    "types": [
+     "route",
+     "geocode"
+    ]
+   },
+   {
+    "description": "Sao Paulo, Valle Dorado, Tlalnepantla de Baz, State of Mexico, Mexico",
+    "id": "2a3381fc565a0c6690b97c4b856a386d9088aac0",
+    "matched_substrings": [
+     {
+      "length": 9,
+      "offset": 0
+     },
+     {
+      "length": 8,
+      "offset": 46
+     }
+    ],
+    "place_id": "EkVTYW8gUGF1bG8sIFZhbGxlIERvcmFkbywgVGxhbG5lcGFudGxhIGRlIEJheiwgU3RhdGUgb2YgTWV4aWNvLCBNZXhpY28",
+    "reference": "ClRJAAAAd62FCr8bn53Xtw-9RDr_dsMHpsZTCsXfsDSrJlhJrW_ViT9jAy-yel8tGR-NTn54xya7ZDr3wicLXDgzJSwN0xzpnD6-g7nGegOgy8SiBUoSEDF_HrgtTAHPQVQ-BbZZQIUaFBPHUGGpfdbEUe3G3oKUSduSBEzj",
+    "structured_formatting": {
+     "main_text": "Sao Paulo",
+     "main_text_matched_substrings": [
+      {
+       "length": 9,
+       "offset": 0
+      }
+     ],
+     "secondary_text": "Valle Dorado, Tlalnepantla de Baz, State of Mexico, Mexico",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 8,
+       "offset": 35
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "Sao Paulo"
+     },
+     {
+      "offset": 11,
+      "value": "Valle Dorado"
+     },
+     {
+      "offset": 25,
+      "value": "Tlalnepantla de Baz"
+     },
+     {
+      "offset": 46,
+      "value": "State of Mexico"
+     },
+     {
+      "offset": 63,
+      "value": "Mexico"
+     }
+    ],
+    "types": [
+     "route",
+     "geocode"
+    ]
+   },
+   {
+    "description": "Rua Vicente Paula - Alvorada, Ibirité - State of Minas Gerais, Brazil",
+    "id": "8fdc85b14d99e7d3fa61587489ecc6722f189343",
+    "matched_substrings": [
+     {
+      "length": 17,
+      "offset": 0
+     },
+     {
+      "length": 8,
+      "offset": 40
+     }
+    ],
+    "place_id": "EkZSdWEgVmljZW50ZSBQYXVsYSAtIEFsdm9yYWRhLCBJYmlyaXTDqSAtIFN0YXRlIG9mIE1pbmFzIEdlcmFpcywgQnJhemls",
+    "reference": "ClRKAAAAf6Zx0kOO4wIkAdVCq5TzBT2ZZzwEdtYyGYGK839bw5MgmbTm4-9UWsmrOaLLTx5OsMFm-HeNPkkdvx7Ck6dvwPIcO16Vdgxp_k-aYnRactwSEKhZuXJuJSgMk7RKJBJyzAQaFCd9MdaOIOe2SEJiJjqkUiVI3kII",
+    "structured_formatting": {
+     "main_text": "Rua Vicente Paula",
+     "main_text_matched_substrings": [
+      {
+       "length": 17,
+       "offset": 0
+      }
+     ],
+     "secondary_text": "Alvorada, Ibirité - State of Minas Gerais, Brazil",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 8,
+       "offset": 20
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "Rua Vicente Paula"
+     },
+     {
+      "offset": 20,
+      "value": "Alvorada"
+     },
+     {
+      "offset": 30,
+      "value": "Ibirité"
+     },
+     {
+      "offset": 40,
+      "value": "State of Minas Gerais"
+     },
+     {
+      "offset": 63,
+      "value": "Brazil"
+     }
+    ],
+    "types": [
+     "route",
+     "geocode"
+    ]
+   },
+   {
+    "description": "Rua São Vicente de Paulo - Vila Argos Velha, Jundiaí - State of São Paulo, Brazil",
+    "id": "12c8d5a04eb632dccbecdfd137a44313d198434a",
+    "matched_substrings": [
+     {
+      "length": 24,
+      "offset": 0
+     },
+     {
+      "length": 8,
+      "offset": 55
+     }
+    ],
+    "place_id": "ElRSdWEgU8OjbyBWaWNlbnRlIGRlIFBhdWxvIC0gVmlsYSBBcmdvcyBWZWxoYSwgSnVuZGlhw60gLSBTdGF0ZSBvZiBTw6NvIFBhdWxvLCBCcmF6aWw",
+    "reference": "CmRYAAAAMoDlm-J6V_5LcGsZ52iP8GGQFyadCm4Wf8e3GC4ldlaKwtfvDLJL_kaSnVWVv0T9DfV1BnmcitnnA9X_YX8vE-muMhQo1DsyGUZeDHD7ksrfg6cXlMrJIn-NCexQEJrdEhA6IUZqsLwev4nPchmdttp9GhTKSDh1ZxsxNTdeFIr94TG6yk-m0A",
+    "structured_formatting": {
+     "main_text": "Rua São Vicente de Paulo",
+     "main_text_matched_substrings": [
+      {
+       "length": 24,
+       "offset": 0
+      }
+     ],
+     "secondary_text": "Vila Argos Velha, Jundiaí - State of São Paulo, Brazil",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 8,
+       "offset": 28
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "Rua São Vicente de Paulo"
+     },
+     {
+      "offset": 27,
+      "value": "Vila Argos Velha"
+     },
+     {
+      "offset": 45,
+      "value": "Jundiaí"
+     },
+     {
+      "offset": 55,
+      "value": "State of São Paulo"
+     },
+     {
+      "offset": 75,
+      "value": "Brazil"
+     }
+    ],
+    "types": [
+     "route",
+     "geocode"
+    ]
+   },
+   {
+    "description": "Travessa São Vicente de Paulo - Centro, São Bernardo do Campo - State of São Paulo, Brazil",
+    "id": "159fe28a17b12bc71a7b60c9fd9b0d6e4fd98a9b",
+    "matched_substrings": [
+     {
+      "length": 29,
+      "offset": 0
+     },
+     {
+      "length": 8,
+      "offset": 64
+     }
+    ],
+    "place_id": "El1UcmF2ZXNzYSBTw6NvIFZpY2VudGUgZGUgUGF1bG8gLSBDZW50cm8sIFPDo28gQmVybmFyZG8gZG8gQ2FtcG8gLSBTdGF0ZSBvZiBTw6NvIFBhdWxvLCBCcmF6aWw",
+    "reference": "CnRhAAAAu_lDgwCdPur4lFuel2Z8nemHrzrA7AAwgfeZwJbzhd4BHOyUN7HGaNhpPZ1uCyIK6U955sxINFoXus-0ob77YZx6j0hgNEkzDzyw-XkV0LM2CVBfJghZ5FBYXEqO_NIOZaqvoIlXfFrMWRM6PsHK0hIQcSIfv-o8ASGqL-32S_UuDRoUZCmJRFKxKPEOdmH5oNLUTt4S9Yk",
+    "structured_formatting": {
+     "main_text": "Travessa São Vicente de Paulo",
+     "main_text_matched_substrings": [
+      {
+       "length": 29,
+       "offset": 0
+      }
+     ],
+     "secondary_text": "Centro, São Bernardo do Campo - State of São Paulo, Brazil",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 8,
+       "offset": 32
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "Travessa São Vicente de Paulo"
+     },
+     {
+      "offset": 32,
+      "value": "Centro"
+     },
+     {
+      "offset": 40,
+      "value": "São Bernardo do Campo"
+     },
+     {
+      "offset": 64,
+      "value": "State of São Paulo"
+     },
+     {
+      "offset": 84,
+      "value": "Brazil"
+     }
+    ],
+    "types": [
+     "route",
+     "geocode"
+    ]
+   }
+  ],
+  "status": "OK"
+ },
+ "requestUrl": "https://maps.googleapis.com/maps/api/place/autocomplete/json?input=S%C3%A3o%20Paulo%20-%20State%20of&types=address&key=AIzaSyDYmT8bnHQl71gUGrkc6sizLL79cr5NIuw",
+ "query": {
+  "input": "São Paulo - State of",
+  "types": "address",
+  "key": "AIzaSyDYmT8bnHQl71gUGrkc6sizLL79cr5NIuw"
+ }
+
+    },
+    'Marseille, 99 Rue Abbé' : {
+
+ "status": 200,
+ "headers": {
+  "content-type": "application/json; charset=UTF-8",
+  "date": "Wed, 24 Jan 2018 18:09:18 GMT",
+  "expires": "Wed, 24 Jan 2018 18:09:18 GMT",
+  "cache-control": "private, max-age=300",
+  "server": "scaffolding on HTTPServer2",
+  "x-xss-protection": "1; mode=block",
+  "x-frame-options": "SAMEORIGIN",
+  "alt-svc": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\"",
+  "accept-ranges": "none",
+  "vary": "Accept-Language,Accept-Encoding",
+  "connection": "close"
+ },
+ "json": {
+  "predictions": [
+   {
+    "description": "99 Rue Abbé de l'Épée, Marseille, France",
+    "id": "5635aac971723946635973faff8e2637d52303ce",
+    "matched_substrings": [
+     {
+      "length": 2,
+      "offset": 0
+     },
+     {
+      "length": 8,
+      "offset": 3
+     },
+     {
+      "length": 9,
+      "offset": 23
+     }
+    ],
+    "place_id": "ChIJJWGdb6DAyRIR7wZh-XZJ8MI",
+    "reference": "ClRDAAAA4ydJkkdOGRvEsuPO--sDAC7JmkgX_3lJk09cheT5V-0Du6rVpxri3926bI84eyKhQ-Ip4-S2OzFWlw33oYk_anBEnVlw8IFc7ifC62tZuTgSEB-IJ34FdTt07HsS3ZE6rkcaFMcjruVcRZjoKVt1jo4iggv_AhYn",
+    "structured_formatting": {
+     "main_text": "99 Rue Abbé de l'Épée",
+     "main_text_matched_substrings": [
+      {
+       "length": 2,
+       "offset": 0
+      },
+      {
+       "length": 8,
+       "offset": 3
+      }
+     ],
+     "secondary_text": "Marseille, France",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 9,
+       "offset": 0
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "99"
+     },
+     {
+      "offset": 3,
+      "value": "Rue Abbé de l'Épée"
+     },
+     {
+      "offset": 23,
+      "value": "Marseille"
+     },
+     {
+      "offset": 34,
+      "value": "France"
+     }
+    ],
+    "types": [
+     "street_address",
+     "geocode"
+    ]
+   },
+   {
+    "description": "99 Rue Abbé Faria, Marseille, France",
+    "id": "a1d55477699fad44dcce1ac0bf7baf130f0512d4",
+    "matched_substrings": [
+     {
+      "length": 11,
+      "offset": 0
+     },
+     {
+      "length": 9,
+      "offset": 19
+     }
+    ],
+    "place_id": "EiU5OSBSdWUgQWJiw6kgRmFyaWEsIE1hcnNlaWxsZSwgRnJhbmNl",
+    "reference": "CjQpAAAArFTFKAIiROmUwB_OaQZh_NDzqv2HuAo_zYLBpIJUGx6GwyeplON4w1A3Du_3_6ROEhCxyXxCGOWPFdDoBveMy1sJGhS6QXOjuge822GiqUZ4CAw7Bz1fYg",
+    "structured_formatting": {
+     "main_text": "99 Rue Abbé Faria",
+     "main_text_matched_substrings": [
+      {
+       "length": 11,
+       "offset": 0
+      }
+     ],
+     "secondary_text": "Marseille, France",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 9,
+       "offset": 0
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "99 Rue Abbé Faria"
+     },
+     {
+      "offset": 19,
+      "value": "Marseille"
+     },
+     {
+      "offset": 30,
+      "value": "France"
+     }
+    ],
+    "types": [
+     "route",
+     "geocode"
+    ]
+   },
+   {
+    "description": "99 Rue Abbé Féraud, Marseille, France",
+    "id": "96fec8e52576b0481042197be2abe71e12ce3a38",
+    "matched_substrings": [
+     {
+      "length": 11,
+      "offset": 0
+     },
+     {
+      "length": 9,
+      "offset": 20
+     }
+    ],
+    "place_id": "Eic5OSBSdWUgQWJiw6kgRsOpcmF1ZCwgTWFyc2VpbGxlLCBGcmFuY2U",
+    "reference": "CjQrAAAAGsQRoc7rHJDqijtuvrB18ZfqB6E8vkn4g1kfrHSb999QnBCyDdduOVURx35n3moPEhAZXQOqOfjuoA19WqyCjayWGhQ7YBKLxHVroht2N_zX-HAdTEIziQ",
+    "structured_formatting": {
+     "main_text": "99 Rue Abbé Féraud",
+     "main_text_matched_substrings": [
+      {
+       "length": 11,
+       "offset": 0
+      }
+     ],
+     "secondary_text": "Marseille, France",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 9,
+       "offset": 0
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "99 Rue Abbé Féraud"
+     },
+     {
+      "offset": 20,
+      "value": "Marseille"
+     },
+     {
+      "offset": 31,
+      "value": "France"
+     }
+    ],
+    "types": [
+     "route",
+     "geocode"
+    ]
+   },
+   {
+    "description": "99 Rue Abbé Dassy, Marseille, France",
+    "id": "9a45755d29309c8fc62ea88175c7cf3fd15995bb",
+    "matched_substrings": [
+     {
+      "length": 11,
+      "offset": 0
+     },
+     {
+      "length": 9,
+      "offset": 19
+     }
+    ],
+    "place_id": "EiU5OSBSdWUgQWJiw6kgRGFzc3ksIE1hcnNlaWxsZSwgRnJhbmNl",
+    "reference": "CjQpAAAAstCLxoI-4z9P6Y-we0eRpKi4x6KbcMmvOoo07bPp1EF-dBw-ln7a3Fa8eoe-VS_OEhCDJpcIY7kdAsmY-4Y56ItgGhR0UZQ0giExcPmF63hj_AK6oGDA5w",
+    "structured_formatting": {
+     "main_text": "99 Rue Abbé Dassy",
+     "main_text_matched_substrings": [
+      {
+       "length": 11,
+       "offset": 0
+      }
+     ],
+     "secondary_text": "Marseille, France",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 9,
+       "offset": 0
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "99 Rue Abbé Dassy"
+     },
+     {
+      "offset": 19,
+      "value": "Marseille"
+     },
+     {
+      "offset": 30,
+      "value": "France"
+     }
+    ],
+    "types": [
+     "route",
+     "geocode"
+    ]
+   },
+   {
+    "description": "99 Rue de l'Abbé Féraud, Marseille, France",
+    "id": "49bdf4300ea5284c0c3fcbd0123c70384dbb064d",
+    "matched_substrings": [
+     {
+      "length": 23,
+      "offset": 0
+     },
+     {
+      "length": 9,
+      "offset": 25
+     }
+    ],
+    "place_id": "Eiw5OSBSdWUgZGUgbCdBYmLDqSBGw6lyYXVkLCBNYXJzZWlsbGUsIEZyYW5jZQ",
+    "reference": "CjQwAAAAwEDiSBpj33BArtlkxZiX-gndtSCkS41fCXLTt42y-T-FmSch4WgpSsak5D6fi5kYEhDrjtv_I89CnlpkxJL1Q1kiGhT1_ksntngd7SfOc9IbgSBvCdOmwQ",
+    "structured_formatting": {
+     "main_text": "99 Rue de l'Abbé Féraud",
+     "main_text_matched_substrings": [
+      {
+       "length": 23,
+       "offset": 0
+      }
+     ],
+     "secondary_text": "Marseille, France",
+     "secondary_text_matched_substrings": [
+      {
+       "length": 9,
+       "offset": 0
+      }
+     ]
+    },
+    "terms": [
+     {
+      "offset": 0,
+      "value": "99 Rue de l'Abbé Féraud"
+     },
+     {
+      "offset": 25,
+      "value": "Marseille"
+     },
+     {
+      "offset": 36,
+      "value": "France"
+     }
+    ],
+    "types": [
+     "route",
+     "geocode"
+    ]
+   }
+  ],
+  "status": "OK"
+ },
+ "requestUrl": "https://maps.googleapis.com/maps/api/place/autocomplete/json?input=Marseille%2C%2099%20Rue%20Abb%C3%A9&types=address&key=AIzaSyDYmT8bnHQl71gUGrkc6sizLL79cr5NIuw",
+ "query": {
+  "input": "Marseille, 99 Rue Abbé",
+  "types": "address",
+  "key": "AIzaSyDYmT8bnHQl71gUGrkc6sizLL79cr5NIuw"
+ }
+
+
+    },
+  },
 };
